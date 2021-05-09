@@ -1,4 +1,4 @@
-'''Gets current Zulu Military Time. Used for making Zettelkasten id's.'''
+'''Gets current Zulu Military Time. Used for making Zettelkasten IDs.'''
 
 import datetime
 import pyperclip
