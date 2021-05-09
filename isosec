@@ -1,0 +1,9 @@
+'''Gets current Zulu Military Time. Used for making Zettelkasten id's.'''
+
+import datetime
+import pyperclip
+
+zulu_time = (datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d%H%M%S"))
+pyperclip.copy(zulu_time)
+print(zulu_time)
+
